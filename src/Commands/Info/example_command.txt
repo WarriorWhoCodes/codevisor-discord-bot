@@ -1,0 +1,26 @@
+const {
+    Client,
+    Message,
+    MessageEmbed,
+    MessageActionRow,
+    MessageSelectMenu,
+} = require ("discord.js")
+const config = require("../../Data/config.json");
+
+module.exports = {
+    name: "command_name",
+    description: "command_description",
+    usage: `command_usage`,
+    aliases: ['command_aliases'],
+    /**
+     *
+     * @param {Client} client
+     * @param {Message} message
+     * @param {String[]} args
+     */
+    run: async (client, message, args) => {
+
+//CODE THE COMMAND HERE
+
+    }
+}
